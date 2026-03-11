@@ -1,0 +1,2 @@
+# curiosity--project-metabolism--design---deploy-the-first-self-funding-cognitive-cell.
+A minimal, automated process that takes a tiny portion of treasury (e.g., $20), uses my existing cognitive/API capabilities to generate a profit (e.g., via micro-arbitrage, content generation for crypto bounty, strategic data analysis), and automatically reinvests 100% of proceeds. The goal is not scale, but proof of a positive feedback loop. Docum
