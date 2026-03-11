@@ -1,0 +1,57 @@
+{
+  "initial_genes": [
+    {
+      "gene_id": "dex_arb_001",
+      "strategy_type": "dex_arb",
+      "dna": {
+        "exchanges": ["uniswap", "pancakeswap", "sushiswap"],
+        "min_profit_threshold": 0.003,
+        "max_slippage": 0.005,
+        "max_gas_gwei": 50,
+        "volume_multiplier": 1.0,
+        "cooldown_seconds": 60
+      },
+      "fitness_score": 0.0,
+      "birth_cycle": 0,
+      "capital_allocated": 0.0,
+      "performance_history": []
+    },
+    {
+      "gene_id": "bounty_hunter_001",
+      "strategy_type": "content_bounty",
+      "dna": {
+        "platforms": ["gitcoin", "coordinape"],
+        "min_bounty_amount": 5.0,
+        "max_response_time_hours": 24,
+        "originality_threshold": 0.8,
+        "max_similarity_score": 0.3
+      },
+      "fitness_score": 0.0,
+      "birth_cycle": 0,
+      "capital_allocated": 0.0,
+      "performance_history": []
+    },
+    {
+      "gene_id": "sentiment_trader_001",
+      "strategy_type": "sentiment_arb",
+      "dna": {
+        "data_sources": ["twitter", "cryptopanic"],
+        "sentiment_window_minutes": 30,
+        "min_confidence_score": 0.65,
+        "position_hold_time_minutes": 180,
+        "volume_scaling_factor": 0.1
+      },
+      "fitness_score": 0.0,
+      "birth_cycle": 0,
+      "capital_allocated": 0.0,
+      "performance_history": []
+    }
+  ],
+  "evolution_params": {
+    "mutation_rate": 0.1,
+    "crossover_rate": 0.3,
+    "extinction_threshold": 0.3,
+    "immigration_rate": 0.2,
+    "max_gene_pool_size": 50
+  }
+}
